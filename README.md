@@ -1,14 +1,13 @@
 # EX 2 Data Manipulation Language (DML) Commands and built in functions in SQL
-## DATE:
-## AIM:
-To create a manager database and execute DML queries using SQL.
 
+## DATE: 11/08/2023
+
+## AIM: To create a manager database and execute DML queries using SQL.
 
 ## DML(Data Manipulation Language)
 <div align="justify">
 The SQL commands that deal with the manipulation of data present in the database belong to DML or Data Manipulation Language and this includes most of the SQL statements. It is the component of the SQL statement that controls access to data and to the database. Basically, DCL statements are grouped with DML statements.
 </div>
-
 
 ## List of DML commands: 
 <div align="justify">
@@ -17,12 +16,10 @@ UPDATE: It is used to update existing data within a table.<br>
 DELETE: It is used to delete records from a database table.<br>
 </div>
 
-
 ## Create the table as given below:
 ```sql
 create table manager(enumber number(6),ename char(15),salary number(5),commission number(4),annualsalary number(7),Hiredate date,designation char(10),deptno number(2),reporting char(10));
 ```
-
 
 ## insert the following values into the table
 ```sql
@@ -31,7 +28,6 @@ insert into manager values(7839,'Subu',3000,400,36000,'1-Jul-82','manager',null,
 insert into manager values(7934,'Aadhi',3500,300,42000,'1-May-82','manager',30,NULL);
 insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bond');
 ```
-
 
 ### Q1) Update all the records of manager table by increasing 10% of their salary as bonus.
 
@@ -166,4 +162,4 @@ insert into manager values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bo
 
 
 ### RESULT
-Thus,To create a manager database and execute DML queries using SQL is executed successfully.
+Thus to create a manager database and execute DML queries using SQL is executed successfully.
